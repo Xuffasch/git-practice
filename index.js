@@ -10,12 +10,7 @@ var logger = require('morgan');
 app.use(logger('dev'));
 
 app.route("/")
-   .get((req, res) => {
-     if (Date() > new Date(2019, 12, 25)) {
-        res.send(`Merry Christmas !`)
-     } else 
-        res.send(`It's almost Christmas ! at ${Date()}`)
-    });
+   .get((req, res) => res.send(`Hello World ! at ${Date()}`));
 
 app.listen(
   { port: PORT },
