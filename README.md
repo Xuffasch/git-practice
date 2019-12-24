@@ -9,3 +9,4 @@ Link between an issue and a commit can be done :
 
 ### Branch Management
 New branches can be created from a branch different from master
+Note: update by creating the branch "update-readme" from develop then pushing it to GitHub
